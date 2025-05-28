@@ -36,7 +36,6 @@ public class JogoEnt {
     )
     private List<ConsoleEnt> consoles;
 
-    // Construtor padrão explícito
     public JogoEnt() {}
 
     public JogoEnt(Long id, String nome, String descricao, LocalDate dataLancamento, String website, String genero, String urlcapa, DesenvolvedorEnt desenvolvedor, List<ConsoleEnt> consoles) {

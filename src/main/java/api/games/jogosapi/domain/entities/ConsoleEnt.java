@@ -19,7 +19,6 @@ public class ConsoleEnt {
     private LocalDate dataLancamento;
     private String empresa;
 
-    // Construtor padrão necessário para o Hibernate
     public ConsoleEnt() {}
 
     public ConsoleEnt(Long id, String nome, LocalDate dataLancamento, String empresa) {

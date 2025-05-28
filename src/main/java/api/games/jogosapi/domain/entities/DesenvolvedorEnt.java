@@ -20,7 +20,6 @@ public class DesenvolvedorEnt {
     private @URL String website;
     private String sede;
 
-    // Construtor padrão necessário para o Hibernate
     public DesenvolvedorEnt() {}
 
     public DesenvolvedorEnt(Long id, String nome, LocalDate dataFundacao, String website, String sede) {
