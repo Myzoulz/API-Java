@@ -19,7 +19,7 @@ public class TratadorDeErros {
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<Void> tratarErro500() {
-        return ResponseEntity.notFound().build();
+        return ResponseEntity.status(500).build();
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
